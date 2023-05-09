@@ -1,0 +1,52 @@
+.main{
+
+
+
+}
+.row1{
+	justify-content: center;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+}
+.Btn{
+   
+    font-weight: bold;
+   
+    cursor: pointer;
+    border: 1px solid rgb(156, 150, 150);
+    
+    height: 40px;
+    width: 80px;
+    padding: 1px;
+    
+
+}
+.Btn:hover{
+
+    background-color: rgba(255, 0, 34, 0.93);
+    color: rgb(255, 255, 255);
+}
+.Dropdown{
+	display: block;
+	position: absolute;
+	height: 200px;
+	width: 100px;
+}
+.submenuitems{
+	padding: 10px;
+	width: 100px;
+	position: relative;
+	background-color: gray;
+	border: 2px solid brown;
+	left: 0px;
+}
+.submenuitems :hover{
+
+	background-color: yellow;
+}
+.Dropdown:hover subitems{
+
+
+	display: block;
+}
